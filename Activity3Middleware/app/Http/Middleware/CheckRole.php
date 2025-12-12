@@ -16,7 +16,7 @@ class CheckRole
     public function handle($request, Closure $next)
     {
         if ($request->role !== 'admin') {
-            return response('Access Denied: Admins Only', 403);
+            return response('Access Denieed: Admins Only', 403);
         }
         
         return $next($request);

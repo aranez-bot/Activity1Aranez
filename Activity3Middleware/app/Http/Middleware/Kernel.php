@@ -1,1 +1,0 @@
-'checkrole' => \App\Http\Middleware\CheckRole::class
