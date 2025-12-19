@@ -7,5 +7,5 @@ Route::get('/', function () {
 });
 
 Route::get('/admin-dashboard', function () {
-    return "Welcome Admin!";
+    return 'Welcome Admin! Access Granted.';
 })->middleware('checkrole');
